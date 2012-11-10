@@ -1,0 +1,12 @@
+diff -urN flaw-1.3.2/src/main.cc flaw-1.3.2-patched/src/main.cc
+--- flaw-1.3.2/src/main.cc	2011-12-05 02:57:18.000000000 +1100
++++ flaw-1.3.2-patched/src/main.cc	2012-02-23 12:44:02.027726050 +1100
+@@ -125,7 +125,7 @@
+ 	for (Uint8 n = 1 ; n <= 5; n++) {
+     setup.initoptions (n, 9);
+     for (Uint8 m = 1 ; m <= 5; m++) {
+-      char txt[14];
++      char txt[28];
+ 			sprintf (txt, _("Joystick %d"), m);
+ 			setup.nameoption (n, m-1, txt);
+ 			if (m > numjoy) setup.optionactive (n, m-1, false);
