@@ -45,3 +45,10 @@ while more and more fireballs appear in the arena.
 %{_datadir}/%{name}/*
 %{_datadir}/locale/*
 
+
+
+%changelog
+* Thu Feb 23 2012 Andrey Bondrov <abondrov@mandriva.org> 1.3.2-1mdv2011.0
++ Revision: 779286
+- imported package flaw
+
