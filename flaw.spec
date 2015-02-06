@@ -1,6 +1,6 @@
 Name:		flaw
 Version:	1.3.2
-Release:	%mkrel 1
+Release:	2
 Summary:	F.L.A.W. is a fighting game between magicians
 License:	GPLv3+
 Group:		Games/Arcade
