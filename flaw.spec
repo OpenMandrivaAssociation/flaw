@@ -14,7 +14,7 @@ BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 BuildRequires:	SDL_gfx-devel
-Requires:	freetype2
+Requires:	freetype
 Requires:	fonts-ttf-freefont
 
 %description
@@ -31,11 +31,7 @@ while more and more fireballs appear in the arena.
 %make
 
 %install
-%__rm -rf %{buildroot}
 %makeinstall_std
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %doc AUTHORS COPYING ChangeLog
@@ -44,11 +40,4 @@ while more and more fireballs appear in the arena.
 %{_bindir}/*
 %{_datadir}/%{name}/*
 %{_datadir}/locale/*
-
-
-
-%changelog
-* Thu Feb 23 2012 Andrey Bondrov <abondrov@mandriva.org> 1.3.2-1mdv2011.0
-+ Revision: 779286
-- imported package flaw
 
