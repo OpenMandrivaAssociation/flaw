@@ -4,7 +4,7 @@ Release:	3
 Summary:	F.L.A.W. is a fighting game between magicians
 License:	GPLv3+
 Group:		Games/Arcade
-URL:		http://flaw.sourceforge.net/index.php
+URL:		https://flaw.sourceforge.net/index.php
 Source:		%{name}-%{version}.tar.gz
 # Buffer is too small and sprintf causes segfault with buffer overflaw
 Patch0:		flaw-1.3.2-buffer.patch
