@@ -8,6 +8,11 @@ URL:		https://flaw.sourceforge.net/index.php
 Source:		%{name}-%{version}.tar.gz
 # Buffer is too small and sprintf causes segfault with buffer overflaw
 Patch0:		flaw-1.3.2-buffer.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	boost-devel
 BuildRequires:	intltool
 BuildRequires:	SDL_image-devel
